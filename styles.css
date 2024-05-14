@@ -1,0 +1,19 @@
+.container {
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20px;
+    grid-template-rows: 10% 10% 10% 10% 10% 10%; 
+    border-color: black;
+    grid-gap: 5%;
+}
+
+.space {
+    background-color: pink;
+    border: 1px dashed black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
